@@ -1,5 +1,5 @@
 tasks:
-  - before: if [[ -z "$experiment" ]]; then cd playground/1st-proof-of-concept; else cd playground/$experiment; fi
+  - before: if [[ -z "$experiment" ]]; then cd workspace/game-mine-test; fi
     command: nvm install 13.3.0 && npm install && npm start
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
